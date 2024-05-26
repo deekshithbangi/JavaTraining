@@ -16,6 +16,7 @@ public class Day7Class {
 
     private static void primePattern() {
         int count = 0, row = 1;
+        System.out.println("Printing the prime pattern");
         for (int i = 2; i < 50; i++) {
             if (isPrime(i)) {
                 System.out.print(i + " ");
@@ -35,5 +36,6 @@ public class Day7Class {
                 System.out.print(i + " ");
             }
         }
+        System.out.println("\n");
     }
 }
